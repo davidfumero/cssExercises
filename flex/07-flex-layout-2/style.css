@@ -13,15 +13,19 @@ body {
 }
 
 .content {
-
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 32px;
+  gap: 16px;
 }
 
 .header {
   display: flex;
   align-items: center;
   font-weight: 900;
-  font-size: xx-large;
-  padding: 0px 16px;
+  font-size: 32px;
+  padding-left: 16px;
   height: 72px;
   background: darkmagenta;
   color: white;
@@ -51,7 +55,7 @@ a {
 }
 
 ul {
-  font-size: larger;
+  font-size: 24px;
   display: flex;
   flex-direction: column;
   list-style: none;
@@ -64,4 +68,5 @@ ul {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
+  padding: 16px;
 }
