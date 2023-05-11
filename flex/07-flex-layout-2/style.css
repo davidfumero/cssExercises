@@ -41,10 +41,9 @@ body {
 }
 
 .sidebar {
-  display: flex;
   flex-shrink: 0;
-  width: 300px;
   padding: 16px;
+  width: 300px;
   background: royalblue;
   box-sizing: border-box;
 }
@@ -52,16 +51,17 @@ body {
 a {
   text-decoration: none;
   color: white;
+  font-size: 24px;
 }
 
 ul {
-  font-size: 24px;
-  display: flex;
-  flex-direction: column;
   list-style: none;
-  gap: 16px;
   margin: 0px;
   padding: 0px;
+}
+
+li {
+  margin-bottom: 16px;
 }
 
 .card {
